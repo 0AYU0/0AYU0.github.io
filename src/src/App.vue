@@ -1,13 +1,11 @@
 <template>
   <div>
     <Header />
-    <div class="body">
-      <Nameplate />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <Nameplate />
+    <About />
+    <Experience />
+    <Projects />
+    <Contact />
   </div>
 </template>
 
@@ -33,12 +31,22 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
-.body {
-  margin: 8rem;
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
 
 html {
   scroll-behavior: smooth;
+}
+
+mark {
+  background-color: #faa0a0;
+}
+
+@media only screen and (max-width: 768px) {
+  #about,
+  #experience,
+  #projects,
+  #contact {
+    flex-direction: column;
+  }
 }
 </style>

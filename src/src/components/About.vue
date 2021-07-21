@@ -1,13 +1,15 @@
 <template>
   <div id="about">
     <div class="intro-photo">
-      <h1>about</h1>
+      <h1><mark>about</mark></h1>
       <img src="./../assets/AlexanderYu.jpg" class="photo"/>
     </div>
     <div class="background">
       hello!
       <div>
-      my name is alex, and i'm a incoming second year student at the university of california, san diego pursuing a b.s. in computer science and a mathematics minor.
+      my name is alex, and i'm a incoming second year student at the university of california, 
+      san diego pursuing a b.s. in computer science and a mathematics minor.  <br/> i love computers, math,
+      boba, coffee, chess, reading, and most of all, gaining new experiences and learning something new.
       </div>
     </div>
   </div>

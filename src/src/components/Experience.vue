@@ -1,11 +1,11 @@
 <template>
   <div id="experience">
     <div class="experience-header">
-      <h1>experience</h1>
+      <h1><mark>experience</mark></h1>
     </div>
     <div class="experience-background">
       <div>
-        kastner research group | <br/>
+        <div>kastner research group, jacobs school of engineering | telemedicine undergraduate researcher</div>
         i used angular and c# with docker to assist in development of an app for clinicians to better scale resources, as well as performed ui/ux changes based on feedback from user testing to increase accessibility for hospitals
       </div>
     </div>
